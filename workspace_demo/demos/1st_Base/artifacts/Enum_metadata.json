@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum Status",
+						"name": "sta",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demos/1st_Base/19_EnumImport.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demos/1st_Base/18_EnumDeclaration.sol": {
+			"keccak256": "0xbfbd436b67361891e1bc11b98446f5738c2589bd8c4f48a3f21a36abee817029",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cfecc865caca299f6c042ee64c4d075a2256046f10b57a30599d6d385960ed58",
+				"dweb:/ipfs/QmSdaE7it9f9ngdWoDibMEWY7UmHPCGsKzrxCf2puAU4Dv"
+			]
+		},
+		"demos/1st_Base/19_EnumImport.sol": {
+			"keccak256": "0xfaa2275d7ca2e8693994ed9d3c2539543286556e59d6598f2abe1d6f2dac4786",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://558b23f2e8de5c50062e4253e6d0b4fffc060b4bedaada06083471f4bd01bc56",
+				"dweb:/ipfs/QmZo63cji7xAVfDfFswcwuA9fTVQxxoeVGGKHKRVXApNaU"
+			]
+		}
+	},
+	"version": 1
+}
