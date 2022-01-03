@@ -3,6 +3,7 @@
 
 pragma solidity ^0.8.10 <0.9.0;
 
+// 基底合約 Counter (符合 ICounter)
 contract Counter {
     uint public count;
 
@@ -11,6 +12,7 @@ contract Counter {
     }
 }
 
+// 宣告介面 ICounter
 interface ICounter {
     function count() external view returns (uint);
 
@@ -18,6 +20,7 @@ interface ICounter {
 }
 
 contract MyContract {
+    // 將 Counter 合約的 address 帶入, 即可用宣告的介面使用 Counter 合約方法 
     function incrementCounter(address _counter) external {
         ICounter(_counter).increment();
     }
@@ -46,6 +49,7 @@ interface UniswapV2Pair {
         );
 }
 
+// 將鏈上的合約以 Interface 的方式使用
 contract UniswapExample {
     address private factory = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
     address private dai = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
@@ -57,4 +61,3 @@ contract UniswapExample {
         return (reserve0, reserve1);
     }
 }
-

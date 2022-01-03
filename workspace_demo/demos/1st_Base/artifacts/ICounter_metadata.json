@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demos/1st_Base/35_Interface.sol": "Counter"
+			"demos/1st_Base/35_Interface.sol": "ICounter"
 		},
 		"evmVersion": "london",
 		"libraries": {},
