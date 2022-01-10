@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "contract Foo",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFooName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"6st_project-useful/50_Import.sol": "Import"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"6st_project-useful/49_Foo.sol": {
+			"keccak256": "0xfaa8733ef9a7108cc9503524e2cbaf3b8c0959b7a88a7285f13cb7770fac268e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://198c80a5062a1c41911dc322f353936b38e1ba5247d2f0b75c09d4fca548051b",
+				"dweb:/ipfs/QmSHFtdP2Q9C9vUKhVTtpb5r5rG8s5g1ajVH9nMAR2hDHf"
+			]
+		},
+		"6st_project-useful/50_Import.sol": {
+			"keccak256": "0x48097a42c0e2d9ee11a52847f97b2e11bda1ee3124391de4dddd0df48dc7efc8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c13226f902c1ac372270812146989031a849203539deb445f4cfdac1e391ca29",
+				"dweb:/ipfs/QmXsmgr9aiEkUSCoGZ7Yf5rnYN3ujJZ4mqDFAfmrtFoMZb"
+			]
+		}
+	},
+	"version": 1
+}

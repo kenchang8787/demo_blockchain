@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"5st-pay-and-send/39_Fallback.sol": "Fallback"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"5st-pay-and-send/39_Fallback.sol": {
+			"keccak256": "0x56f4fb09c30ef0f4884ed833e71854eb7b4b2a1fde58c442cc428600091eb9e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79cb1d2a7ffb8a202882d5448facec487dca432a718fa15a61133f322bdf10e2",
+				"dweb:/ipfs/QmdQKvTiepvWaSt3k6gnBnbq9vFnYVyWyebT5qmR3PXT4N"
+			]
+		}
+	},
+	"version": 1
+}

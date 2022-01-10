@@ -9,7 +9,7 @@ contract Variables {
     string public text = "Hello";
     uint public num = 123;
 
-    function foo() public pure{
+    function foo() public view{
         // local
         uint i = 77;
 
