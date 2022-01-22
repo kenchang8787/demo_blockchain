@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.8.0;
+pragma solidity ^0.8.0;
 
 // 計算機合約
 // 1. 加法

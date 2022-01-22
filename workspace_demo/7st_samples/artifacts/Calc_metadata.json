@@ -1,0 +1,155 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "c",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "div",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "min",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1. calc.sol": "Calc"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1. calc.sol": {
+			"keccak256": "0xc18250b85202b5afa371e6199597f648f85735d47181b58a4ae8176195f2addc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1100624b6696b724fa2f9722745384019899c73bfdc3377a641b5a3544aff2b",
+				"dweb:/ipfs/QmSujnQQg5obh8qKbf14DbcMSVcu1PjmJKNvoJixMF3ir6"
+			]
+		}
+	},
+	"version": 1
+}
